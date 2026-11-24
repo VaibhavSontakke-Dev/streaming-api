@@ -1,0 +1,9 @@
+{
+    "cpu":  "11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz",
+    "physicalCores":  2,
+    "logicalCores":  4,
+    "memoryGb":  15.7,
+    "operatingSystem":  "Microsoft Windows 11 Home Single Language 10.0.26200",
+    "dotnetSdk":  "10.0.403",
+    "note":  "API, Test Media Server, PostgreSQL and the load generator all run on this single machine."
+}

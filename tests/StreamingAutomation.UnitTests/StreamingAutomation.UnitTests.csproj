@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <PackageReference Include="EFCore.NamingConventions" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../StreamingAutomation.Domain/StreamingAutomation.Domain.csproj" />
+    <ProjectReference Include="../../StreamingAutomation.Application/StreamingAutomation.Application.csproj" />
+    <ProjectReference Include="../../StreamingAutomation.Infrastructure/StreamingAutomation.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\StreamingAutomation.MediaServer\StreamingAutomation.MediaServer.csproj" />
+  </ItemGroup>
+</Project>

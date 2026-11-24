@@ -1,0 +1,11 @@
+{
+    "name":  "Real-time 100 sessions x1",
+    "sessionCount":  100,
+    "maxConcurrency":  100,
+    "rampUpSeconds":  10,
+    "playbackSpeed":  1,
+    "simulatedFailureRate":  0.02,
+    "mediaItemIds":  [
+                         "8f1c2a10-0000-4000-8000-000000000001"
+                     ]
+}

@@ -1,0 +1,11 @@
+{
+    "name":  "Standard 150 sessions x10",
+    "sessionCount":  150,
+    "maxConcurrency":  150,
+    "rampUpSeconds":  5,
+    "playbackSpeed":  10,
+    "simulatedFailureRate":  0.05,
+    "mediaItemIds":  [
+                         "8f1c2a10-0000-4000-8000-000000000001"
+                     ]
+}

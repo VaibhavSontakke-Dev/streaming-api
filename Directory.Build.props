@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <!-- CA1848 (LoggerMessage delegates) / CA1062 are noisy for a prototype; CA2007 not relevant in ASP.NET Core -->
+    <NoWarn>$(NoWarn);CA1848;CA1062;CA2007;CA1711;CA1515;CA1031;CA1716;CA1873</NoWarn>
+  </PropertyGroup>
+</Project>

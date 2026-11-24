@@ -1,0 +1,12 @@
+{
+    "activeStreams":  0,
+    "peakActiveStreams":  100,
+    "streamsInWindow":  1,
+    "completedStreams":  99,
+    "manifestRequests":  100,
+    "segmentRequests":  2986,
+    "bytesServed":  95552000,
+    "transientErrorsInjected":  42,
+    "brokenStreamErrorsInjected":  4,
+    "measuredAt":  "2026-11-23T08:47:55.417715+00:00"
+}

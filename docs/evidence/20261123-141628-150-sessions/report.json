@@ -1,0 +1,153 @@
+{
+    "run":  {
+                "id":  "01a20795-d844-75bb-bb9e-461008244970",
+                "name":  "Standard 150 sessions x10",
+                "platform":  "YouTube",
+                "status":  "Completed",
+                "isLive":  false,
+                "requestedSessions":  150,
+                "maxConcurrency":  150,
+                "rampUpSeconds":  5,
+                "playbackSpeed":  10,
+                "simulatedFailureRate":  0.05,
+                "pending":  0,
+                "active":  0,
+                "started":  150,
+                "completed":  139,
+                "failed":  11,
+                "cancelled":  0,
+                "interrupted":  0,
+                "peakConcurrency":  148,
+                "totalBytesReceived":  139296000,
+                "createdAt":  "2026-11-23T08:46:30.468661+00:00",
+                "startedAt":  "2026-11-23T08:46:30.499244+00:00",
+                "endedAt":  "2026-11-23T08:46:41.60767+00:00",
+                "durationSeconds":  11.1
+            },
+    "summary":  {
+                    "requested":  150,
+                    "started":  150,
+                    "completed":  139,
+                    "failed":  11,
+                    "cancelled":  0,
+                    "interrupted":  0,
+                    "active":  0,
+                    "successRatePercent":  92.67,
+                    "peakConcurrency":  148,
+                    "observedPeakConcurrency":  148,
+                    "totalBytesReceived":  139296000,
+                    "totalSegments":  4353,
+                    "totalRetries":  71,
+                    "sessionsWithRetries":  41,
+                    "runDurationSeconds":  11.1,
+                    "throughputKbps":  100393.5
+                },
+    "sessionDurationSeconds":  {
+                                   "samples":  139,
+                                   "min":  6,
+                                   "average":  6.1,
+                                   "p50":  6,
+                                   "p95":  6.2,
+                                   "max":  6.4
+                               },
+    "startupLatencyMs":  {
+                             "samples":  150,
+                             "min":  16,
+                             "average":  42,
+                             "p50":  40,
+                             "p95":  58,
+                             "max":  344
+                         },
+    "statusBreakdown":  [
+                            {
+                                "status":  "Completed",
+                                "count":  139
+                            },
+                            {
+                                "status":  "Failed",
+                                "count":  11
+                            }
+                        ],
+    "errors":  [
+                   {
+                       "errorCode":  "STREAM_BROKEN",
+                       "count":  11,
+                       "sampleMessage":  "Media server returned 500 Internal Server Error for http://localhost:5200/media/test-media-01/segments/28."
+                   }
+               ],
+    "concurrencyTimeline":  [
+                                {
+                                    "timestamp":  "2026-11-23T08:46:30.499244+00:00",
+                                    "offsetSeconds":  0,
+                                    "activeSessions":  0
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:31.499244+00:00",
+                                    "offsetSeconds":  1,
+                                    "activeSessions":  30
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:32.499244+00:00",
+                                    "offsetSeconds":  2,
+                                    "activeSessions":  60
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:33.499244+00:00",
+                                    "offsetSeconds":  3,
+                                    "activeSessions":  90
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:34.499244+00:00",
+                                    "offsetSeconds":  4,
+                                    "activeSessions":  118
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:35.499244+00:00",
+                                    "offsetSeconds":  5,
+                                    "activeSessions":  147
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:36.499244+00:00",
+                                    "offsetSeconds":  6,
+                                    "activeSessions":  146
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:37.499244+00:00",
+                                    "offsetSeconds":  7,
+                                    "activeSessions":  118
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:38.499244+00:00",
+                                    "offsetSeconds":  8,
+                                    "activeSessions":  89
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:39.499244+00:00",
+                                    "offsetSeconds":  9,
+                                    "activeSessions":  60
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:40.499244+00:00",
+                                    "offsetSeconds":  10,
+                                    "activeSessions":  31
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:41.499244+00:00",
+                                    "offsetSeconds":  11,
+                                    "activeSessions":  1
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:41.60767+00:00",
+                                    "offsetSeconds":  11.1,
+                                    "activeSessions":  0
+                                }
+                            ],
+    "environment":  {
+                        "operatingSystem":  "Microsoft Windows 10.0.26200",
+                        "framework":  ".NET 10.0.14",
+                        "processorCount":  4,
+                        "processArchitecture":  "X64"
+                    },
+    "dataSource":  "Simulated playback sessions measured locally against the Test Media Server (authorised test environment). These figures are engine telemetry, NOT views or streams reported by YouTube or Spotify.",
+    "generatedAt":  "2026-11-23T08:46:42.2404396+00:00"
+}

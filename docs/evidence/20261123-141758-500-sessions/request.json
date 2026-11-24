@@ -1,0 +1,11 @@
+{
+    "name":  "Stress 500 sessions x5",
+    "sessionCount":  500,
+    "maxConcurrency":  500,
+    "rampUpSeconds":  5,
+    "playbackSpeed":  5,
+    "simulatedFailureRate":  0.05,
+    "mediaItemIds":  [
+                         "8f1c2a10-0000-4000-8000-000000000001"
+                     ]
+}

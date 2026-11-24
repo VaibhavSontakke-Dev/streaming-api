@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="StreamingAutomation.API/StreamingAutomation.API.csproj" />
+    <Project Path="StreamingAutomation.Application/StreamingAutomation.Application.csproj" />
+    <Project Path="StreamingAutomation.Domain/StreamingAutomation.Domain.csproj" />
+    <Project Path="StreamingAutomation.Infrastructure/StreamingAutomation.Infrastructure.csproj" />
+    <Project Path="StreamingAutomation.MediaServer/StreamingAutomation.MediaServer.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/StreamingAutomation.IntegrationTests/StreamingAutomation.IntegrationTests.csproj" />
+    <Project Path="tests/StreamingAutomation.UnitTests/StreamingAutomation.UnitTests.csproj" />
+  </Folder>
+</Solution>

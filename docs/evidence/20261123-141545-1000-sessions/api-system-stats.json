@@ -1,0 +1,15 @@
+{
+    "activeRuns":  0,
+    "activeSessions":  0,
+    "pendingSessions":  0,
+    "persistenceFlushes":  23,
+    "sessionRowsWritten":  13652,
+    "workingSetMb":  220.3,
+    "managedHeapMb":  46.6,
+    "processThreads":  42,
+    "threadPoolThreads":  11,
+    "threadPoolBusyWorkers":  1,
+    "cpuTimeSeconds":  28.7,
+    "uptimeSeconds":  21,
+    "measuredAt":  "2026-11-23T08:46:12.5874918+00:00"
+}

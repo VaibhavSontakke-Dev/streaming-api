@@ -1,0 +1,183 @@
+{
+    "run":  {
+                "id":  "01a20797-3a2f-74e6-bffe-636790d10e6b",
+                "name":  "Stress 500 sessions x5",
+                "platform":  "YouTube",
+                "status":  "Completed",
+                "isLive":  false,
+                "requestedSessions":  500,
+                "maxConcurrency":  500,
+                "rampUpSeconds":  5,
+                "playbackSpeed":  5,
+                "simulatedFailureRate":  0.05,
+                "pending":  0,
+                "active":  0,
+                "started":  500,
+                "completed":  477,
+                "failed":  23,
+                "cancelled":  0,
+                "interrupted":  0,
+                "peakConcurrency":  496,
+                "totalBytesReceived":  466784000,
+                "createdAt":  "2026-11-23T08:48:01.071577+00:00",
+                "startedAt":  "2026-11-23T08:48:01.160543+00:00",
+                "endedAt":  "2026-11-23T08:48:18.295268+00:00",
+                "durationSeconds":  17.1
+            },
+    "summary":  {
+                    "requested":  500,
+                    "started":  500,
+                    "completed":  477,
+                    "failed":  23,
+                    "cancelled":  0,
+                    "interrupted":  0,
+                    "active":  0,
+                    "successRatePercent":  95.4,
+                    "peakConcurrency":  496,
+                    "observedPeakConcurrency":  496,
+                    "totalBytesReceived":  466784000,
+                    "totalSegments":  14587,
+                    "totalRetries":  207,
+                    "sessionsWithRetries":  143,
+                    "runDurationSeconds":  17.1,
+                    "throughputKbps":  218378.5
+                },
+    "sessionDurationSeconds":  {
+                                   "samples":  477,
+                                   "min":  11.8,
+                                   "average":  11.9,
+                                   "p50":  11.9,
+                                   "p95":  11.9,
+                                   "max":  12.1
+                               },
+    "startupLatencyMs":  {
+                             "samples":  500,
+                             "min":  16,
+                             "average":  44,
+                             "p50":  41,
+                             "p95":  59,
+                             "max":  359
+                         },
+    "statusBreakdown":  [
+                            {
+                                "status":  "Completed",
+                                "count":  477
+                            },
+                            {
+                                "status":  "Failed",
+                                "count":  23
+                            }
+                        ],
+    "errors":  [
+                   {
+                       "errorCode":  "STREAM_BROKEN",
+                       "count":  23,
+                       "sampleMessage":  "Media server returned 500 Internal Server Error for http://localhost:5200/media/test-media-01/segments/13."
+                   }
+               ],
+    "concurrencyTimeline":  [
+                                {
+                                    "timestamp":  "2026-11-23T08:48:01.160543+00:00",
+                                    "offsetSeconds":  0,
+                                    "activeSessions":  0
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:02.160543+00:00",
+                                    "offsetSeconds":  1,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:03.160543+00:00",
+                                    "offsetSeconds":  2,
+                                    "activeSessions":  199
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:04.160543+00:00",
+                                    "offsetSeconds":  3,
+                                    "activeSessions":  297
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:05.160543+00:00",
+                                    "offsetSeconds":  4,
+                                    "activeSessions":  395
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:06.160543+00:00",
+                                    "offsetSeconds":  5,
+                                    "activeSessions":  495
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:07.160543+00:00",
+                                    "offsetSeconds":  6,
+                                    "activeSessions":  495
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:08.160543+00:00",
+                                    "offsetSeconds":  7,
+                                    "activeSessions":  493
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:09.160543+00:00",
+                                    "offsetSeconds":  8,
+                                    "activeSessions":  488
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:10.160543+00:00",
+                                    "offsetSeconds":  9,
+                                    "activeSessions":  486
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:11.160543+00:00",
+                                    "offsetSeconds":  10,
+                                    "activeSessions":  485
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:12.160543+00:00",
+                                    "offsetSeconds":  11,
+                                    "activeSessions":  484
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:13.160543+00:00",
+                                    "offsetSeconds":  12,
+                                    "activeSessions":  472
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:14.160543+00:00",
+                                    "offsetSeconds":  13,
+                                    "activeSessions":  374
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:15.160543+00:00",
+                                    "offsetSeconds":  14,
+                                    "activeSessions":  277
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:16.160543+00:00",
+                                    "offsetSeconds":  15,
+                                    "activeSessions":  177
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:17.160543+00:00",
+                                    "offsetSeconds":  16,
+                                    "activeSessions":  80
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:18.160543+00:00",
+                                    "offsetSeconds":  17,
+                                    "activeSessions":  1
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:48:18.295268+00:00",
+                                    "offsetSeconds":  17.1,
+                                    "activeSessions":  0
+                                }
+                            ],
+    "environment":  {
+                        "operatingSystem":  "Microsoft Windows 10.0.26200",
+                        "framework":  ".NET 10.0.14",
+                        "processorCount":  4,
+                        "processArchitecture":  "X64"
+                    },
+    "dataSource":  "Simulated playback sessions measured locally against the Test Media Server (authorised test environment). These figures are engine telemetry, NOT views or streams reported by YouTube or Spotify.",
+    "generatedAt":  "2026-11-23T08:48:19.2022343+00:00"
+}

@@ -1,0 +1,438 @@
+{
+    "run":  {
+                "id":  "01a20796-17ca-7149-ae3e-102ca75aac6f",
+                "name":  "Real-time 100 sessions x1",
+                "platform":  "YouTube",
+                "status":  "Completed",
+                "isLive":  false,
+                "requestedSessions":  100,
+                "maxConcurrency":  100,
+                "rampUpSeconds":  10,
+                "playbackSpeed":  1,
+                "simulatedFailureRate":  0.02,
+                "pending":  0,
+                "active":  0,
+                "started":  100,
+                "completed":  99,
+                "failed":  1,
+                "cancelled":  0,
+                "interrupted":  0,
+                "peakConcurrency":  100,
+                "totalBytesReceived":  95552000,
+                "createdAt":  "2026-11-23T08:46:46.730145+00:00",
+                "startedAt":  "2026-11-23T08:46:46.74805+00:00",
+                "endedAt":  "2026-11-23T08:47:55.001669+00:00",
+                "durationSeconds":  68.3
+            },
+    "summary":  {
+                    "requested":  100,
+                    "started":  100,
+                    "completed":  99,
+                    "failed":  1,
+                    "cancelled":  0,
+                    "interrupted":  0,
+                    "active":  0,
+                    "successRatePercent":  99,
+                    "peakConcurrency":  100,
+                    "observedPeakConcurrency":  100,
+                    "totalBytesReceived":  95552000,
+                    "totalSegments":  2986,
+                    "totalRetries":  45,
+                    "sessionsWithRetries":  38,
+                    "runDurationSeconds":  68.3,
+                    "throughputKbps":  11192
+                },
+    "sessionDurationSeconds":  {
+                                   "samples":  99,
+                                   "min":  58.2,
+                                   "average":  58.2,
+                                   "p50":  58.2,
+                                   "p95":  58.3,
+                                   "max":  58.4
+                               },
+    "startupLatencyMs":  {
+                             "samples":  100,
+                             "min":  17,
+                             "average":  40,
+                             "p50":  41,
+                             "p95":  58,
+                             "max":  191
+                         },
+    "statusBreakdown":  [
+                            {
+                                "status":  "Completed",
+                                "count":  99
+                            },
+                            {
+                                "status":  "Failed",
+                                "count":  1
+                            }
+                        ],
+    "errors":  [
+                   {
+                       "errorCode":  "STREAM_BROKEN",
+                       "count":  1,
+                       "sampleMessage":  "Media server returned 500 Internal Server Error for http://localhost:5200/media/test-media-01/segments/16."
+                   }
+               ],
+    "concurrencyTimeline":  [
+                                {
+                                    "timestamp":  "2026-11-23T08:46:46.74805+00:00",
+                                    "offsetSeconds":  0,
+                                    "activeSessions":  0
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:47.74805+00:00",
+                                    "offsetSeconds":  1,
+                                    "activeSessions":  10
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:48.74805+00:00",
+                                    "offsetSeconds":  2,
+                                    "activeSessions":  20
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:49.74805+00:00",
+                                    "offsetSeconds":  3,
+                                    "activeSessions":  30
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:50.74805+00:00",
+                                    "offsetSeconds":  4,
+                                    "activeSessions":  40
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:51.74805+00:00",
+                                    "offsetSeconds":  5,
+                                    "activeSessions":  50
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:52.74805+00:00",
+                                    "offsetSeconds":  6,
+                                    "activeSessions":  60
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:53.74805+00:00",
+                                    "offsetSeconds":  7,
+                                    "activeSessions":  70
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:54.74805+00:00",
+                                    "offsetSeconds":  8,
+                                    "activeSessions":  80
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:55.74805+00:00",
+                                    "offsetSeconds":  9,
+                                    "activeSessions":  90
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:56.74805+00:00",
+                                    "offsetSeconds":  10,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:57.74805+00:00",
+                                    "offsetSeconds":  11,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:58.74805+00:00",
+                                    "offsetSeconds":  12,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:46:59.74805+00:00",
+                                    "offsetSeconds":  13,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:00.74805+00:00",
+                                    "offsetSeconds":  14,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:01.74805+00:00",
+                                    "offsetSeconds":  15,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:02.74805+00:00",
+                                    "offsetSeconds":  16,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:03.74805+00:00",
+                                    "offsetSeconds":  17,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:04.74805+00:00",
+                                    "offsetSeconds":  18,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:05.74805+00:00",
+                                    "offsetSeconds":  19,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:06.74805+00:00",
+                                    "offsetSeconds":  20,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:07.74805+00:00",
+                                    "offsetSeconds":  21,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:08.74805+00:00",
+                                    "offsetSeconds":  22,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:09.74805+00:00",
+                                    "offsetSeconds":  23,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:10.74805+00:00",
+                                    "offsetSeconds":  24,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:11.74805+00:00",
+                                    "offsetSeconds":  25,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:12.74805+00:00",
+                                    "offsetSeconds":  26,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:13.74805+00:00",
+                                    "offsetSeconds":  27,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:14.74805+00:00",
+                                    "offsetSeconds":  28,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:15.74805+00:00",
+                                    "offsetSeconds":  29,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:16.74805+00:00",
+                                    "offsetSeconds":  30,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:17.74805+00:00",
+                                    "offsetSeconds":  31,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:18.74805+00:00",
+                                    "offsetSeconds":  32,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:19.74805+00:00",
+                                    "offsetSeconds":  33,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:20.74805+00:00",
+                                    "offsetSeconds":  34,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:21.74805+00:00",
+                                    "offsetSeconds":  35,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:22.74805+00:00",
+                                    "offsetSeconds":  36,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:23.74805+00:00",
+                                    "offsetSeconds":  37,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:24.74805+00:00",
+                                    "offsetSeconds":  38,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:25.74805+00:00",
+                                    "offsetSeconds":  39,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:26.74805+00:00",
+                                    "offsetSeconds":  40,
+                                    "activeSessions":  100
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:27.74805+00:00",
+                                    "offsetSeconds":  41,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:28.74805+00:00",
+                                    "offsetSeconds":  42,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:29.74805+00:00",
+                                    "offsetSeconds":  43,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:30.74805+00:00",
+                                    "offsetSeconds":  44,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:31.74805+00:00",
+                                    "offsetSeconds":  45,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:32.74805+00:00",
+                                    "offsetSeconds":  46,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:33.74805+00:00",
+                                    "offsetSeconds":  47,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:34.74805+00:00",
+                                    "offsetSeconds":  48,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:35.74805+00:00",
+                                    "offsetSeconds":  49,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:36.74805+00:00",
+                                    "offsetSeconds":  50,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:37.74805+00:00",
+                                    "offsetSeconds":  51,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:38.74805+00:00",
+                                    "offsetSeconds":  52,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:39.74805+00:00",
+                                    "offsetSeconds":  53,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:40.74805+00:00",
+                                    "offsetSeconds":  54,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:41.74805+00:00",
+                                    "offsetSeconds":  55,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:42.74805+00:00",
+                                    "offsetSeconds":  56,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:43.74805+00:00",
+                                    "offsetSeconds":  57,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:44.74805+00:00",
+                                    "offsetSeconds":  58,
+                                    "activeSessions":  99
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:45.74805+00:00",
+                                    "offsetSeconds":  59,
+                                    "activeSessions":  92
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:46.74805+00:00",
+                                    "offsetSeconds":  60,
+                                    "activeSessions":  81
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:47.74805+00:00",
+                                    "offsetSeconds":  61,
+                                    "activeSessions":  72
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:48.74805+00:00",
+                                    "offsetSeconds":  62,
+                                    "activeSessions":  61
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:49.74805+00:00",
+                                    "offsetSeconds":  63,
+                                    "activeSessions":  52
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:50.74805+00:00",
+                                    "offsetSeconds":  64,
+                                    "activeSessions":  41
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:51.74805+00:00",
+                                    "offsetSeconds":  65,
+                                    "activeSessions":  32
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:52.74805+00:00",
+                                    "offsetSeconds":  66,
+                                    "activeSessions":  22
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:53.74805+00:00",
+                                    "offsetSeconds":  67,
+                                    "activeSessions":  13
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:54.74805+00:00",
+                                    "offsetSeconds":  68,
+                                    "activeSessions":  3
+                                },
+                                {
+                                    "timestamp":  "2026-11-23T08:47:55.001669+00:00",
+                                    "offsetSeconds":  68.3,
+                                    "activeSessions":  0
+                                }
+                            ],
+    "environment":  {
+                        "operatingSystem":  "Microsoft Windows 10.0.26200",
+                        "framework":  ".NET 10.0.14",
+                        "processorCount":  4,
+                        "processArchitecture":  "X64"
+                    },
+    "dataSource":  "Simulated playback sessions measured locally against the Test Media Server (authorised test environment). These figures are engine telemetry, NOT views or streams reported by YouTube or Spotify.",
+    "generatedAt":  "2026-11-23T08:47:55.4058266+00:00"
+}
